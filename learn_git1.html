@@ -1,0 +1,13 @@
+print('hallo python')
+import random
+app_tizer=['话梅花生',['拍黄瓜'],['凉拌三丝']]
+def coupon(money):
+    if money<5:
+        a=random.choice(app_tizer)
+        return a,''
+    elif 5<=money<10:
+        b=random,choice(app_tizer)
+        return b,'溏心蛋'
+dish,egg=coupon(7)
+print(dish)
+print(egg)       
